@@ -14,9 +14,9 @@ public class Cosidor extends Thread{
     public synchronized void run() {
         while (true){
 
-            System.out.println ( "Costurero de " + pieza + ": añadiendo una pieza  *-*-*-*-*-*-*-*-*-");
+            System.out.println ( "Costurero de " + pieza + " => añadiendo una pieza  *-*-*-*-*-*-*-*-*-");
             cesta.aniyadirPieza();
-            System.out.println ( "Costurero de " + pieza + ": He añadido una pieza.");
+            System.out.println ( "Costurero de " + pieza + " => He añadido una pieza.");
         }
     }
 }

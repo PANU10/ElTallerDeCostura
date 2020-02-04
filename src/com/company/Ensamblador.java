@@ -17,7 +17,7 @@ public class Ensamblador extends Thread {
         for(;;){
             cestaMangas.cogerPieza();
             cestaCuerpo.cogerPieza();
-            System.out.println("Costurero de " + pieza + ": he hecho un jersey");
+            System.out.println("Costurero de " + pieza + " => he hecho un jersey");
         }
     }
 }
